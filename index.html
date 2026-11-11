@@ -1,126 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background-color: #f4f6f8;
-  color: #333;
-}
-
-
-.header {
-  background: linear-gradient(135deg, #1e3a5f, #2c5f8a);
-  color: white;
-  padding: 30px 20px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.header h1 {
-  margin: 0 0 8px 0;
-  font-size: 2.2rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.header p {
-  margin: 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
-  font-weight: 300;
-}
-
-
-.row {
-  margin: 20px;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.column h2 {
-  margin-top: 0;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.footer {
-  background: linear-gradient(135deg, #1e3a5f, #2c5f8a);
-  color: white;
-  padding: 25px 20px;
-  text-align: center;
-  clear: both;
-  margin-top: 30px;
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.footer p {
-  margin: 0;
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-
-.footer .links {
-  margin-top: 12px;
-}
-
-.footer a {
-  color: #a8d4ff;
-  text-decoration: none;
-  margin: 0 12px;
-  font-size: 0.9rem;
-  transition: color 0.2s;
-}
-
-.footer a:hover {
-  color: white;
-}
+<meta charset="UTF-8">
+<style type="text/css">
+  #container{width:80%; background-color: #EC72EA; margin 0 auto; height: 950px;}
+  header{background-color: #7B82F9; height: 150px;}
+  footer{background-color: #7B82F9; height: 150px; clear:both;}
+  #wrapper{background-color: #7B82F3;}
+  #content{background-color: #7B82A9; width: 60%; height: 600px; float:left;}
+  #slidebar{background-color: #4B52F9; width: 40%; float:right; height: 400px;}
 </style>
 </head>
 <body>
-
-<div class="header">
-  <h1>Photo Gallery</h1>
-  <p>Monthly Collection</p>
-</div>
-
-<div class="row">
-  <div class="column" style="background-color:#e8eef5;">
-    <h2>August</h2>
-    <p>Photo gallery</p>
+<div id="container">
+  <header>logo</header>
+  <div id="wrapper">
+    <div id="content">content
+    </div>
+    <div id="slidebar">slidebar  
+    </div>
   </div>
-  <div class="column" style="background-color:#dce6f0;">
-    <h2>September</h2>
-    <p>Photo gallery</p>
-  </div>
-</div>
-
-<div class="footer">
-  <p>&copy; 2026 Photo Gallery. All rights reserved.</p>
-  <div class="links">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </div>
-</div>
+  <footer>
+    footer
+  </footer>
+    
 
 </body>
 </html>
